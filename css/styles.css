@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+body{}
+.center {
+    text-align: center;
+}
+.logo{
+    float: left;
+}
+header h2{
+    position: relative;
+    margin-left: 50px;
+    font-family: 'Lobster', cursive;
+}
+header h6{
+    position: relative;
+    margin-left: 50px;
+    bottom: 24px;
+    font-size: 10px;
+    color: darkgray;
+}
+h5{
+    position: relative;
+    
+    bottom: 24px;
+    font-size: 10px;
+    color: darkgray;
+}
+.social {
+    position: relative;
+    text-align: right;
+    bottom: 70px;
+}
+.dashed1{
+    margin-top: -50px;
+}
+.dashed{
+    margin-top: 20px;
+}
+#rss{
+    margin-left: 10px;
+}
+form{
+    font-family: 'Handlee', cursive;
+}
+#choco{
+    font-family: 'Anton', sans-serif;
+}
+.imgcenter{
+
+    margin-top: -20px;
+    width: 100%;
+    z-index: 0;
+}
+
+#formBG {
+    background-image: url('../img/list-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#formLeft {
+    text-align: left;
+    display: inline-block;
+    margin-left: 80px;
+}
+#formRight {
+    text-align: left;
+    margin-left: 400px;
+    display: inline-block;
+}
+.strikethrough:checked + .strikeThis {
+    text-decoration: line-through
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+  }
+  .shareName{
+      margin-left: 80px;
+  } 
+  .shareParg{
+      margin-left: 80px;
+      margin-top: -30px;
+      
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: brown;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  p{
+      font-size: 18px;
+      color: rgb(82, 82, 82);
+  }
+
+  .flourish {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+  }
+  .flourish:before, 
+  .flourish:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 50%;
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+  .flourish:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  .flourish:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
